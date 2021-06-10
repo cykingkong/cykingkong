@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>网易严选</title>
+  <script src="../jquery/jquery.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"> </script>
+  <link rel="stylesheet" href="../css/tongyong.css">
+  <link rel="stylesheet" href="../css/wyyx.css">
+  <link rel="stylesheet" href="../css/new.css">
+  <style>
+    .swiper-container {
+      width: 100%;
+      height: 450px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 顶部 -->
+  <div class="header">
+    <div class="header-bx">
+      <ul class="header-ul fr">
+        <li><a href="./SignUp.html" class="top-a">登陆/注册<span class="li-right">|</span></a></li>
+        <li><a href="./shopcar.html" class="top-a">我的订单<span class="li-right">|</span></a></li>
+        <li><a href="#" class="top-a">会员<span class="li-right">|</span></a></li>
+        <li><a href="#" class="top-a">甄选家<span class="li-right">|</span></a></li>
+        <li><a href="#" class="top-a">企业采购<span class="li-right">|</span></a></li>
+        <li><a href="#" class="top-a">客户服务<span class="li-right">|</span></a></li>
+        <li><a href="#" class="top-a">App</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 搜索栏和购物车  -->
+  <div class="top">
+    <div class="top-bx">
+      <div class="top-a fl">
+        <a href="#" class="tubiao"></a>
+      </div>
+      <!-- 搜索栏 -->
+      <div class="search ">
+        <input type="text" name="search">
+        <span>搜索</span>
+      </div>
+      <!-- 购物车 -->
+      <div class="shopcar">
+        <span class="fl shop-sp"></span>
+        <span class="shop-p fl">购物车</span>
+        <span class="yuan fr">0</span>
+      </div>
+      <div class="tab">
+        <ul class="tab-ul">
+          <li class="tab-li1 tab-li" data-id="1"><a href="./wyyx.html" class="tab-a1">首页</a></li>
+          <li class="tab-li2 tab-li" data-id="2"><a href="./list.html" class="tab-a">居家生活</a></li>
+          <li class="tab-li2 tab-li" data-id="3"><a href="./list.html" class="tab-a">服饰鞋包</a></li>
+          <li class="tab-li2 tab-li" data-id="4"><a href="./list.html" class="tab-a">美食酒水</a></li>
+          <li class="tab-li2 tab-li" data-id="5"><a href="./list.html" class="tab-a">个护清洁</a></li>
+          <li class="tab-li2 tab-li" data-id="6"><a href="./list.html" class="tab-a">母婴亲子</a></li>
+          <li class="tab-li2 tab-li" data-id="7"><a href="./list.html" class="tab-a">运动旅行</a></li>
+          <li class="tab-li2 tab-li" data-id="8"><a href="./list.html" class="tab-a">数码家电</a></li>
+          <li class="tab-li2 tab-li" data-id="9"><a href="./list.html" class="tab-a">严选全球</a></li>
+          <li class="tab-li2 tab-li" data-id="10"><a href="./list.html" class="tab-a">为你严选</a></li>
+          <li class="tab-li1 tab-li" data-id="11"><a href="./list.html" class="tab-a">众筹</a></li>
+        </ul>
+
+        <div class="tab-1 dis-none" data-id2="2.1">
+          <!-- 床上用品 -->
+          <div class="bedding fl">
+            <div class="title">
+              <h3>床上用品</h3>
+            </div>
+            <div class="bed-con">
+              <div class="b1 fl">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+              <div class="b1 fr">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+
+              <div class="b1 fl">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+              <div class="b1 fr">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+
+
+              <div class="b1 fl">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+              <div class="b1 fr">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+
+
+              <div class="b1 fl">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+              <div class="b1 fr">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+
+
+              <div class="b1 fl">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+              <div class="b1 fr">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+
+
+              <div class="b1 fl">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+              <div class="b1 fr">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+
+
+              <div class="b1 fl">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+              <div class="b1 fr">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+
+
+              <div class="b1 fl">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+              <div class="b1 fr">
+                <img
+                  src="https://yanxuan.nosdn.127.net/6eeaa813566307004ff88f1013bf08fe.png?quality=95&amp;type=webp&amp;imageView">
+                <p>床品件套</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-1 dis-none" data-id2="3.1">3</div>
+        <div class="tab-1 dis-none" data-id2="4.1">4</div>
+        <div class="tab-1 dis-none" data-id2="5.1">5</div>
+        <div class="tab-1 dis-none" data-id2="6.1">6</div>
+        <div class="tab-1 dis-none" data-id2="7.1">7</div>
+        <div class="tab-1 dis-none" data-id2="8.1">8</div>
+        <div class="tab-1 dis-none" data-id2="9.1">9</div>
+
+
+
+
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <!-- 广告 -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide"><img src="../wyyxjpg/tt1.jpg" alt="" style="width: 100%;height: 100%;"></div>
+      <div class="swiper-slide"><img src="../wyyxjpg/tt2.jpg" alt="" style="width: 100%;height: 100%;"></div>
+      <div class="swiper-slide"><img src="../wyyxjpg/tt3.jpg" alt="" style="width: 100%;height: 100%;"></div>
+      <div class="swiper-slide"><img src="../wyyxjpg/tt4.jpg" alt="" style="width: 100%;height: 100%;"></div>
+
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+
+  </div>
+
+
+  </div>
+  <!-- 新品 -->
+  <div class="new">
+    <!-- 新品文字部分 -->
+    <div class="new-p">
+      <div class="new-p1 fl">
+        <a href="javascript:;" class="fl">
+          <h1>新品首发</h3>
+        </a>
+        <span class="new-sp1 fl">为你寻觅世间好物</span>
+      </div>
+      <div class="new-p2 fr">
+        <a href="javascript:;">更多新品&gt;</a>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <!-- 新品商品部分 -->
+    <div class="new-shop">
+      <!-- 一 -->
+      <div class="new-box">
+        <div class="new-img">
+          <div class="new-img1">
+            <img
+              src="https://yanxuan-item.nosdn.127.net/796b97e141f984753703a183d2db06c7.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+              alt="618省钱卡，纯补贴无套路" class="img-a opc">
+          </div>
+          <div class="new-img2">
+            <img
+              src="https://yanxuan-item.nosdn.127.net/ab5b10315be25bf3a419c5f9f22394cb.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+              class="img-b">
+          </div>
+        </div>
+        <!-- 新商品名 -->
+        <div class="new-pn">
+          <div class="new-kb"></div>
+          <div class="pn1">618省钱卡，纯补贴无套路</div>
+          <div class="new-money">¥3</div>
+        </div>
+      </div>
+
+      <!-- 二 -->
+
+      <div class="new-box">
+        <div class="new-img">
+          <div class="new-img1">
+            <img
+              src="https://yanxuan-item.nosdn.127.net/5682160ebca80ae3bc59fe7d72ea8a79.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+              alt="强软弹厚底男女居家拖鞋" class="img-a opc">
+          </div>
+          <div class="new-img2">
+            <img
+              src="https://yanxuan-item.nosdn.127.net/eed0f9f2d6dadb5d44f6218340cbd56a.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+              class="img-b">
+          </div>
+        </div>
+        <!-- 新商品名 -->
+        <div class="new-pn">
+          <div class="new-kb"></div>
+          <div class="pn1">强软弹厚底男女居家拖鞋</div>
+          <div class="new-money">¥29.9</div>
+        </div>
+      </div>
+      <!-- 三 -->
+      <div class="new-box">
+        <div class="new-img">
+          <div class="new-img1">
+            <img class="img  img-lazyload img-lazyloaded"
+              src="https://yanxuan-item.nosdn.127.net/d003ae54b036009174c809b2182dbca8.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+              alt="【两对装】强势阻挡紫外线，防晒凉感冰袖" class="img-a opc">
+          </div>
+          <div class="new-img2">
+            <img
+              src="https://yanxuan-item.nosdn.127.net/ad08625328ceda654fe2a933d1e6c486.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+              class="img-b">
+          </div>
+        </div>
+        <!-- 新商品名 -->
+        <div class="new-pn">
+          <div class="new-kb"></div>
+          <div class="pn1">强势阻挡紫外线，防晒凉感冰袖</div>
+          <div class="new-money">¥3</div>
+        </div>
+      </div>
+      <!-- 四 -->
+      <div class="new-box">
+        <div class="new-img">
+          <div class="new-img1">
+            <img
+              src="https://yanxuan-item.nosdn.127.net/a1454c8c0e2ee823386132ab69ec18b6.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+              alt="1%英国珍稀牛种，娟姗纯牛奶 250毫升*10盒" class="img-a opc">
+          </div>
+          <div class="new-img2">
+            <img
+              src="https://yanxuan-item.nosdn.127.net/f17a9d2c0df8fd97a053879c72208f9b.jpg?type=webp&quality=95&thumbnail=265x265&imageView"
+              class="img-b">
+          </div>
+        </div>
+        <!-- 新商品名 -->
+        <div class="new-pn">
+          <div class="new-kb"></div>
+          <div class="pn1">1%英国珍稀牛种，娟姗纯牛奶 250毫升*10盒</div>
+          <div class="new-money">¥3</div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+
+
+  <div class="n2-bg" style="width: 100%;background: #F4F0EA;">
+    <div class="new ">
+      <img class="img img-lazyload j-lazyload img-lazyloaded"
+        src="https://yanxuan.nosdn.127.net/403ef629810368c9b3e0e6fd863ebb4e.jpg?type=webp&amp;imageView&amp;&amp;thumbnail=1090x310&amp;quality=95">
+      <div class="clear"></div>
+      <!-- 新品文字部分 -->
+      <div class="new-p">
+        <div class="new-p1 fl">
+          <a href="javascript:;" class="fl">
+            <h1>人气推荐</h3>
+          </a>
+          <span class="new-sp1 fl">为你寻觅世间好物</span>
+        </div>
+        <div class="new-p2 fr">
+          <a href="javascript:;">更多好物&gt;</a>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <!-- 新品商品部分 -->
+      <div class="new-shop">
+        <!-- 一 -->
+        <div class="new-box">
+          <div class="new-img">
+            <div class="new-img1">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/cd10fc7b137be61c31c93260fa881834.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                alt="618省钱卡，纯补贴无套路" class="img-a opc">
+            </div>
+            <div class="new-img2">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/a845ea8855b02fa48aaa46cdc87c9619.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                class="img-b">
+            </div>
+          </div>
+          <!-- 新商品名 -->
+          <div class="new-pn">
+            <div class="new-kb"></div>
+            <div class="pn1">耐热玻璃把手杯 防滑带杯盖</div>
+            <div class="new-money">¥39</div>
+          </div>
+        </div>
+
+        <!-- 二 -->
+
+        <div class="new-box">
+          <div class="new-img">
+            <div class="new-img1">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/659500940eba07cf9b9940e996d4bc66.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                alt="强软弹厚底男女居家拖鞋" class="img-a opc">
+            </div>
+            <div class="new-img2">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/91c8d6a890f7a7f2251c9e81a82d9dc0.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                class="img-b">
+            </div>
+          </div>
+          <!-- 新商品名 -->
+          <div class="new-pn">
+            <div class="new-kb"></div>
+            <div class="pn1">名牌按摩椅</div>
+            <div class="new-money">¥2999</div>
+          </div>
+        </div>
+        <!-- 三 -->
+        <div class="new-box">
+          <div class="new-img">
+            <div class="new-img1">
+              <img class="img  img-lazyload img-lazyloaded"
+                src="https://yanxuan-item.nosdn.127.net/e43b0d8f50abf89cab25ecf969f1c577.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                alt="【两对装】强势阻挡紫外线，防晒凉感冰袖" class="img-a opc">
+            </div>
+            <div class="new-img2">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/97edf8a6082cdef4c66469b2b52e7bfd.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                class="img-b">
+            </div>
+          </div>
+          <!-- 新商品名 -->
+          <div class="new-pn">
+            <div class="new-kb"></div>
+            <div class="pn1">席梦思床垫</div>
+            <div class="new-money">¥388</div>
+          </div>
+        </div>
+        <!-- 四 -->
+        <div class="new-box">
+          <div class="new-img">
+            <div class="new-img1">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/e816dda76d1c5974eccf6becf1600c2f.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                alt="1%英国珍稀牛种，娟姗纯牛奶 250毫升*10盒" class="img-a opc">
+            </div>
+            <div class="new-img2">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/be1d87b0efe97b67229de3b9defd398b.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                class="img-b">
+            </div>
+          </div>
+          <!-- 新商品名 -->
+          <div class="new-pn">
+            <div class="new-kb"></div>
+            <div class="pn1">【新疆棉】柔软长绒棉毛巾</div>
+            <div class="new-money">¥39</div>
+          </div>
+        </div>
+        <div class="clear"></div>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="n2-bg" style="width: 100%;background: #fff;">
+    <div class="new ">
+      <img class="img img-lazyload j-lazyload img-lazyloaded"
+        src="https://yanxuan.nosdn.127.net/9ed62a99ff7cc6e66225183c84ac4213.jpg?type=webp&amp;imageView&amp;&amp;thumbnail=1090x310&amp;quality=95">
+      <div class="clear"></div>
+      <!-- 新品文字部分 -->
+      <div class="new-p">
+        <div class="new-p1 fl">
+          <a href="javascript:;" class="fl">
+            <h1>服饰箱包</h3>
+          </a>
+          <span class="new-sp1 fl">为你寻觅世间好物</span>
+        </div>
+        <div class="new-p2 fr">
+          <a href="javascript:;">更多好物&gt;</a>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <!-- 新品商品部分 -->
+      <div class="new-shop">
+        <!-- 一 -->
+        <div class="new-box">
+          <div class="new-img">
+            <div class="new-img1">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/cd10fc7b137be61c31c93260fa881834.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                alt="618省钱卡，纯补贴无套路" class="img-a opc">
+            </div>
+            <div class="new-img2">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/a845ea8855b02fa48aaa46cdc87c9619.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                class="img-b">
+            </div>
+          </div>
+          <!-- 新商品名 -->
+          <div class="new-pn">
+            <div class="new-kb"></div>
+            <div class="pn1">耐热玻璃把手杯 防滑带杯盖</div>
+            <div class="new-money">¥39</div>
+          </div>
+        </div>
+
+        <!-- 二 -->
+
+        <div class="new-box">
+          <div class="new-img">
+            <div class="new-img1">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/659500940eba07cf9b9940e996d4bc66.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                alt="强软弹厚底男女居家拖鞋" class="img-a opc">
+            </div>
+            <div class="new-img2">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/91c8d6a890f7a7f2251c9e81a82d9dc0.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                class="img-b">
+            </div>
+          </div>
+          <!-- 新商品名 -->
+          <div class="new-pn">
+            <div class="new-kb"></div>
+            <div class="pn1">名牌按摩椅</div>
+            <div class="new-money">¥2999</div>
+          </div>
+        </div>
+        <!-- 三 -->
+        <div class="new-box">
+          <div class="new-img">
+            <div class="new-img1">
+              <img class="img  img-lazyload img-lazyloaded"
+                src="https://yanxuan-item.nosdn.127.net/e43b0d8f50abf89cab25ecf969f1c577.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                alt="【两对装】强势阻挡紫外线，防晒凉感冰袖" class="img-a opc">
+            </div>
+            <div class="new-img2">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/97edf8a6082cdef4c66469b2b52e7bfd.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                class="img-b">
+            </div>
+          </div>
+          <!-- 新商品名 -->
+          <div class="new-pn">
+            <div class="new-kb"></div>
+            <div class="pn1">席梦思床垫</div>
+            <div class="new-money">¥388</div>
+          </div>
+        </div>
+        <!-- 四 -->
+        <div class="new-box">
+          <div class="new-img">
+            <div class="new-img1">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/e816dda76d1c5974eccf6becf1600c2f.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                alt="1%英国珍稀牛种，娟姗纯牛奶 250毫升*10盒" class="img-a opc">
+            </div>
+            <div class="new-img2">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/be1d87b0efe97b67229de3b9defd398b.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                class="img-b">
+            </div>
+          </div>
+          <!-- 新商品名 -->
+          <div class="new-pn">
+            <div class="new-kb"></div>
+            <div class="pn1">【新疆棉】柔软长绒棉毛巾</div>
+            <div class="new-money">¥39</div>
+          </div>
+        </div>
+        <div class="clear"></div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="n2-bg" style="width: 100%;background: #F4F0EA;">
+    <div class="new ">
+      <img class="img img-lazyload j-lazyload img-lazyloaded"
+        src="https://yanxuan.nosdn.127.net/3297667a12ee6b8f6203ff81754dd1cd.jpg?type=webp&amp;imageView&amp;&amp;thumbnail=1090x310&amp;quality=95">
+      <div class="clear"></div>
+      <!-- 新品文字部分 -->
+      <div class="new-p">
+        <div class="new-p1 fl">
+          <a href="javascript:;" class="fl">
+            <h1>美食酒水</h3>
+          </a>
+          <span class="new-sp1 fl">为你寻觅世间美食</span>
+        </div>
+        <div class="new-p2 fr">
+          <a href="javascript:;">更多好物&gt;</a>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <!-- 新品商品部分 -->
+      <div class="new-shop">
+        <!-- 一 -->
+        <div class="new-box">
+          <div class="new-img">
+            <div class="new-img1">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/01b2a37d5385311e4dc5bed25775a4ca.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                alt="618省钱卡，纯补贴无套路" class="img-a opc">
+            </div>
+            <div class="new-img2">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/d53fba457b516c880ef36616fbc97738.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                class="img-b">
+            </div>
+          </div>
+          <!-- 新商品名 -->
+          <div class="new-pn">
+            <div class="new-kb"></div>
+            <div class="pn1">每日坚果亚麻籽谷物燕麦片 600克</div>
+            <div class="new-money">¥59</div>
+          </div>
+        </div>
+
+        <!-- 二 -->
+
+        <div class="new-box">
+          <div class="new-img">
+            <div class="new-img1">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/6c4273b3a02e49e0e775d8d99a832d35.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                alt="强软弹厚底男女居家拖鞋" class="img-a opc">
+            </div>
+            <div class="new-img2">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/f67dca4b97d88a7547a2245521fd9698.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                class="img-b">
+            </div>
+          </div>
+          <!-- 新商品名 -->
+          <div class="new-pn">
+            <div class="new-kb"></div>
+            <div class="pn1">一口咬到阳光的味道，大片芒果干</div>
+            <div class="new-money">¥12.</div>
+          </div>
+        </div>
+        <!-- 三 -->
+        <div class="new-box">
+          <div class="new-img">
+            <div class="new-img1">
+              <img class="img  img-lazyload img-lazyloaded"
+                src="https://yanxuan-item.nosdn.127.net/af7515cc747a2257275e05765cba7552.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                alt="【两对装】强势阻挡紫外线，防晒凉感冰袖" class="img-a opc">
+            </div>
+            <div class="new-img2">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/fbfdb1c0f59f96e94792465251642b5d.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                class="img-b">
+            </div>
+          </div>
+          <!-- 新商品名 -->
+          <div class="new-pn">
+            <div class="new-kb"></div>
+            <div class="pn1">完整蝴蝶形，新疆原香大核桃仁 110克</div>
+            <div class="new-money">¥188</div>
+          </div>
+        </div>
+        <!-- 四 -->
+        <div class="new-box">
+          <div class="new-img">
+            <div class="new-img1">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/27f454d99470c6f219c6c883dbaf7fd0.png?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                alt="1%英国珍稀牛种，娟姗纯牛奶 250毫升*10盒" class="img-a opc">
+            </div>
+            <div class="new-img2">
+              <img
+                src="https://yanxuan-item.nosdn.127.net/914a3b4fe21c1be072a38489fd7b1f9d.jpg?type=webp&amp;quality=95&amp;thumbnail=265x265&amp;imageView"
+                class="img-b">
+            </div>
+          </div>
+          <!-- 新商品名 -->
+          <div class="new-pn">
+            <div class="new-kb"></div>
+            <div class="pn1">雪麸蛋糕 香蕉牛奶风味 1kg箱装</div>
+            <div class="new-money">¥39</div>
+          </div>
+        </div>
+        <div class="clear"></div>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- 全部商品   -->
+  <div class="tzqb" style=" width: 300px;height: 40px; border-radius: 20px; background:#c59860;color: #fff;margin: 40px auto ;
+  text-align: center;line-height: 40px;">查看全部商品</div>
+
+  </div>
+  <div class="clear"></div>
+  <!-- 左边悬浮导航栏 -->
+  <div class="leftfixed">
+    <ul class="lf-ul">
+      <li class="lf-s"><a href="./list.html">-热销榜-</a></li>
+      <li class="lf-s"><a href="./list.html">-全站榜-</a></li>
+      <li class="lf-s"><a href="./list.html">-居家榜-</a></li>
+      <li class="lf-s"><a href="./list.html">-服饰榜-</a></li>
+      <li class="lf-s"><a href="./list.html">-美食榜-</a></li>
+      <li class="lf-s"><a href="./list.html">-箱包榜-</a></li>
+      <li class="lf-s"><a href="./list.html">-数码榜-</a></li>
+      <li class="lf-s"><a href="./list.html">-运动榜-</a></li>
+      <li class="lf-s"><a href="./list.html">-母婴榜-</a></li>
+      <li class="lf-s"><a href="./list.html">-全球榜-</a></li>
+    </ul>
+  </div>
+  <!-- 底部 -->
+  <!-- 底部 -->
+  <div class="footer" style="  width: 100%;height: 300px;background-color: #414141;margin-top:40px ;">
+    <div class="foot-bx">
+      <div class="foot-a">
+        <ul>
+          <li class="fl">关于我们</li>
+          <li class="fl">帮助中心</li>
+          <li class="fl">售后服务</li>
+          <li class="fl">配送与验收</li>
+          <li class="fl">商务合作</li>
+          <li class="fl">企业采购</li>
+          <li class="fl">开放平台</li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+      <div class="foot-b">
+        <ul>
+          <li class="fl">食品经营许可证：JY13301080111719</li>
+          <li class="fl">出版物经营许可证：新出发滨字第0132号</li>
+          <li class="fl">妙得ICP证号：ICP 证浙B2-20160106</li>
+          <li class="fl">浙杭食药监械经营备20171029号</li>
+          <li class="fl">营业执照</li>
+          <li class="fl">网易公司版权所有 © 1997-</li>
+          <li class="fl">2021</li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+      <div class="foot-c">
+        <ul>
+          <li class="fl">无线电发射设备销售备案：42202011096855</li>
+          <li class="fl">（浙杭）网械企备字[2019]第00119号</li>
+          <li class="fl">（粤）网械平台备字（2019）第00004号</li>
+          <li class="fl">（粤）-非经营性-2016-0023</li>
+          <li class="fl">进口冷链食品管理承诺书</li>
+
+          <div class="clear"></div>
+        </ul>
+      </div>
+      <div class="foot-c">
+        <ul>
+          <li class="fl">食品经营许可证：JY14207050007694</li>
+          <li class="fl">浙江省网络食品销售第三方平台提供者备案：浙网食A33010009</li>
+          <li class="fl">（单用途商业预付卡备案证：330100AAC0024</li>
+
+
+          <div class="clear"></div>
+        </ul>
+      </div>
+      <div class="foot-c">
+        <ul>
+          <li class="fl">出版物网络交易平台服务经营备案：新出发浙备字第2021006号</li>
+
+
+          <div class="clear"></div>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/cookie.js"></script>
+  <script src="../js/shouye.js"></script>
+
+  <script src="../js/newshop.js"></script>
+  <script>
+    $('.tzqb').click(function () {
+      location.href = './list.html'
+    })
+
+    var mySwiper = new Swiper('.swiper-container', {
+      direction: 'horizontal', // 垂直切换选项
+      loop: true, // 循环模式选项
+      speed: 2300,
+      autoplay: {
+        delay: 3000
+      },
+      // 如果需要分页器
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // 如果需要前进后退按钮
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // 如果需要滚动条
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    })
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+.new{
+  width: 1090px;
+  /* height: 510px; */
+      margin-top: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  /* border: solid 1px black; */
+}
+.new-p{
+  width: 100%;
+  margin-top: 20px;
+  /* border: 1px solid red ;s */
+  
+}
+.new-p1{
+  width: 244px;
+
+}
+.new-p a{
+  color: #000;
+      margin-right: 20px;
+}
+.new-p a h1{
+  line-height: 48px;
+  font-size: 28px;
+}
+.new-sp1{
+  line-height: 48px;
+  font-size: 14px;
+}
+.new-p2{
+  line-height: 48px;
+  font-size: 14px;
+}
+/* 新品商品部分 */
+.new-shop{
+  width: 1090px;
+  /* height: 365px; */
+  /* border: 1px solid blue ; */
+}
+.new-box{
+  /* width: 265px; */
+  /* height: 365px; */
+  /* border: 1px solid green; */
+  margin: 0 2px;
+  float: left;
+  position: relative;
+}
+.new-img{
+  width: 265px;
+  height: 265px;
+}
+.new-img1{
+  width: 265px;
+  height: 265px;
+  /* border: 1px solid purple; */
+ position: absolute;
+ /* z-index: 2; */
+
+}
+.img-a{
+  width: 100%;
+  height: 100%;
+}
+.new-img2{
+  width: 265px;
+  height: 265px;
+  /* border: 1px solid purple; */
+ position: absolute;
+}
+.img-b{
+  opacity: 0;
+    width: 100%;
+  height: 100%;
+}
+.opc{
+  opacity: 1;
+}
+/* 新商品名 */
+.new-kb{
+     height: 20px;
+
+    width: 200px;
+   
+margin: 0 auto;
+  /* border: 1px solid purple; */
+}
+.pn1{
+  width: 166px;
+    margin: 0 auto 4px;
+    font-size: 12px;
+    max-height: 40px;
+    line-height: 20px;
+    display: -webkit-box;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.new-money{
+  text-align: center;
+      font-size: 13px;
+    line-height: 13px;
+    color: #d4282d;
+    padding: 1px 0 9px;
+    margin: 0;
+    white-space:nowrap;text-overflow:ellipsis;
+}
+.pn-bg{
+  background-color: #f3f0eb;
+}

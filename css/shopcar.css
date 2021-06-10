@@ -1,0 +1,200 @@
+.shopcarlist{
+  width: 100%;
+  /* height: 1000px; */
+  border-top: 1px solid #ddd;
+}
+.shopcar-bx{
+  width: 1090px;
+  /* height: 1000px; */
+  margin: 0 auto;
+  /* border:1px solid #000; */
+}
+.ling{
+  width: 100%;
+  height: 40px;
+  margin-top:20px ;
+  margin-bottom: 30px;
+  border:1px solid #ddd;
+
+}
+.leftling{
+  width: 169px;
+  height: 38px;
+  font-size: 14px;
+}
+.w-icon-coupon{
+      display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+  background-image: -webkit-image-set(url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/coupon-s823df166ea-166f661804.png?imageView&type=webp) 1x,url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x2/coupon-s9b1cf67aba-e05b23eff9.png?imageView&type=webp) 2x);
+}
+.coupon-coupon-red {
+    background-position: 0 -105px;
+    height: 20px;
+    width: 28px;
+}
+.shopcarling{
+  line-height: 38px ;
+  font-size: 12px;
+
+}
+.lingbtn{
+  width: 88px;
+  height: 38px;
+  background: #E36844;
+  font-size: 12px;
+  color: #fff;
+  line-height: 38px;
+  text-align: center;
+}
+.kongcar{
+  width: 1090px;
+  height: 696px;
+  border:1px solid #ddd;
+  margin-top: 10px;
+/* position: relative; */
+
+}
+.car1{
+  width: 1090px;
+  /* height: 696px; */
+  border:1px solid #ddd;
+  margin-top: 10px; 
+   /* display: none; */
+}
+.k-c img{
+  width: 100%;
+  height: 100%;
+}
+.k-c{
+  width: 180px;
+  /* height: 180px; */
+  /* border:1px solid black; */
+  margin: 300px auto;
+  text-align: center;
+/* position: absolute; */
+}
+.k-c span{
+  font-style: 18px;
+  line-height: 28px;
+}
+.herflist{
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #cc9756;
+  color: #fff;
+  line-height: 40px;margin-top: 15px;
+
+}
+/*购物车有商品时*/
+.car-tt{
+  width: 100%;
+  height: 46px;
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.car-li {
+
+  line-height: 46px;
+  font-size: 12px;
+  color: #333333;
+  float: left;
+}
+.c-li1{
+   width: 139px;
+  margin-left: 20px;
+}
+.c-li1 input{
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+}
+.c-li2,.s-li2{
+  width: 300px;
+}
+.c-li3, .s-li3{
+  width: 180px;
+  text-align: center;
+}
+.c-li4, .s-li4{
+  width: 170px;
+  text-align: center;
+}
+.c-li5, .s-li5{
+  width: 150px;
+  text-align: right;
+  padding-right: 30px;
+}
+.c-li6,.s-li6{
+  width: 127px;
+  text-align: left;
+}
+.shop-a{
+  width: 100%;
+  /* sheight: 176px; */
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding-top: 20px;
+
+}
+.shop-li{
+  float: left; 
+  height: 100%;
+}
+.xuan{
+  vertical-align: middle;
+}
+.s-li1{
+ 
+  margin: 0 20px 0 30px ;
+}
+.s-li1 img{
+  width: 98px;
+  height: 98px;
+}
+.car-shop{
+  margin-bottom: 30px;
+}
+/* 购物车底部按钮 */
+.car-bottom{
+  margin: 30px 0;
+  width: 100%;
+  height: 70px;
+background-color: #ddd;
+font-size: 12px;
+color: #333;
+}
+.bottom-li{
+height: 70px;
+ line-height: 70px;
+margin-left: 20px;
+float: left;
+}
+.li-b3{
+  width: 700px;
+}
+
+/* 底部 */
+ .foot-a ul {
+      border-bottom: 1px solid #ddd;
+    }
+
+    .foot-a ul li {
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #fff;
+      width: 155px;
+      text-align: center;
+      border-right: 1px solid #ddd;
+    }
+     .foot-b ul li,.foot-c ul li{
+           font-size: 12px;
+           line-height: 20px;
+            color: #fff;
+     }

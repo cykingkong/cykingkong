@@ -1,0 +1,285 @@
+.header{
+    width: 100%;
+    height: 36px;
+    background-color: #333333;
+}
+.header-bx{
+  width: 1090px;
+  margin: 0 auto;
+  height: 36px;
+  /* border: 1px white solid; */
+}
+.header-bx ul{
+  margin-right: 10px;
+}
+.top-a{
+  color: #ccc;
+}
+.header-ul li{
+  /* color:white; */
+  float: left;
+  line-height: 36px;
+  font-size: 12px;
+  margin: 0px 10px;
+ 
+
+}
+.li-right{
+  margin-left: 10px;
+}
+/* 搜索栏和购物车 */
+.top{
+  width: 100%;
+  height: 140px;
+
+}
+.top-bx{
+  width: 1090px;
+  height: 140px;
+  margin: 0 auto;
+    /* border: 1px solid black; */
+    position: relative;
+
+}
+.tubiao{
+  display: block;
+  width: 212px;
+  position:absolute;
+ 	background: url('../Sprite/sp2.png') no-repeat 0 -302px;
+	width: 211px;
+	height: 52px;
+  top:28px;
+  /* height: 60px; */
+  /* border: 1px solid blue; */
+}
+.search{
+ left: 315px;
+  top:28px;
+  position: absolute;
+    /* border: 1px solid black; */
+
+}
+.search input{
+  width: 442px;
+  height: 38px;
+  border:2px solid #c59860;
+  border-radius: 19px 0 0 19px;
+  }
+.search span{
+display:block;
+float: right;
+width: 90px;
+height: 38px;
+background-color: #c59860;
+line-height: 38px;
+text-align: center;
+color: #fff;
+border-radius: 0 19px 19px 0;
+}
+.shopcar{
+  position: absolute;
+  right: 0;
+  top: 28px;
+  width: 134px;
+    height: 38px;
+    border: 1px solid #CC9756;
+    border-radius: 19px;
+    padding: 8px 0;
+    color: #c59860;
+    text-align:center;
+    font-size: 15px;
+    
+}
+.yuan{
+  margin-right: 9px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  /* background-color: red; */
+  color:#fff;
+  line-height: 20px;
+  font-size: 12px;
+}
+.shop-sp{
+  width: 18px;
+  height: 18px;
+  display: block;
+    /* border: 1px solid black; */
+  margin-left: 20px;
+margin-top: 1px;
+
+}
+.shop-p{
+  margin-left: 10px;
+}
+.tab{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 24px;
+    /* border: 1px solid black; */
+  
+}
+.tab-ul li{
+  float:left;
+}
+
+.ab{
+  border-bottom: 2px solid #cc9756;
+
+}
+.tab-a1{
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  border-bottom: 2px solid #cc9756;
+  
+}
+.tab-a{
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  /* border-bottom: 2px solid #cc9756; */
+}
+.tab-li1{
+  width: 54px;
+}
+.tab-li2{
+  width: 108px;
+  padding: 0 26px;
+}
+.tab-1{
+  position: absolute;
+  top: 24px;
+  width: 1090px;
+  height: 512px;
+  border: 1px solid #ddd;
+  z-index: 10;
+  background: #fff;
+ padding: 0 15px;
+}
+.dis-none{
+   display: none;
+}
+/* 床上用品 */
+.bedding{
+  width: 273px;
+  height: 512px;
+  /* border: 1px solid green; */
+  }
+  .title{
+width: 100%;
+margin-top: 20px;
+border-bottom: 1px solid #ccc;
+  }
+  .b1{
+    width: 136px;
+    padding: 10px 0;
+  }
+  .b1 p{
+    line-height: 37px;
+  }
+  .b1 img{
+    float: left;
+    width: 32px;
+    height: 37px;
+  }
+/* 广告图 */
+.guanggao{
+  width: 100%;
+}
+.gg-bx{
+width: 1090px;
+height: 420px;
+margin: 0 auto;
+/* border:1px solid pink; */
+position: relative;
+}
+.gg-bx img{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+#tzqb{
+  display: block;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  background:#c59860;
+}
+/* 底部 */
+.foot-bx{
+  width: 1090px;
+  height: 300px;
+  padding-top: 37px;
+margin: 0 auto;
+/* border: 1px solid red; */
+}
+.foot-a{
+  width: 100%;
+  height:51px ;
+/* border: 1px solid pink; */
+
+}
+ /* 左边悬浮导航栏 */
+.leftfixed{
+  width: 110px;
+  /* height: 364px; */
+  border:1px solid red;
+  z-index: 10;
+  position: fixed;
+  top:100px;
+  left: 20px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+.lf-s{
+  height: 38px;
+  border-bottom: 1px solid red;
+  background-color: #fff;
+   text-align: center;
+}
+.lf-s a{
+  color:#cc9756;
+  /* text-align: center; */
+  line-height: 38px;
+  font-size: 12px;
+}
+/* 购物车底部按钮 */
+.car-bottom{
+  margin: 30px 0;
+  width: 100%;
+  height: 70px;
+background-color: #ddd;
+font-size: 12px;
+color: #333;
+}
+.bottom-li{
+height: 70px;
+ line-height: 70px;
+margin-left: 20px;
+float: left;
+}
+.li-b3{
+  width: 700px;
+}
+
+/* 底部 */
+ .foot-a ul {
+      border-bottom: 1px solid #ddd;
+    }
+
+    .foot-a ul li {
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #fff;
+      width: 155px;
+      text-align: center;
+      border-right: 1px solid #ddd;
+    }
+     .foot-b ul li,.foot-c ul li{
+           font-size: 12px;
+           line-height: 20px;
+            color: #fff;
+     }
